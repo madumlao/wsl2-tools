@@ -1,0 +1,2 @@
+#!/bin/bash
+netsh.exe interface portproxy show all

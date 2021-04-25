@@ -1,0 +1,3 @@
+#!/bin/bash
+PORT=$1
+powershell.exe start -Verb RunAs -FilePath netsh.exe -ArgumentList interface,portproxy,delete,v4tov4,listenport=$PORT,listenaddress=0.0.0.0

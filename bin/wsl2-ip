@@ -1,0 +1,2 @@
+#!/bin/bash
+ip address show dev eth0 scope global label eth0 up|grep -oP '(?<=inet )(\d+\.){3}(\d+)'
