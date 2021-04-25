@@ -5,6 +5,8 @@ A collection of utilities for use in a WSL2 environment
 
 To install, include the `bin` directory in your PATH.
 
+Tools that make system changes require powershell to be installed.
+
 ## Tools
 ### wsl2-ip
 Lists the IP address of the current wsl2 machine.
